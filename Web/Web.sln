@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRazor", "WebRazor\WebRazor.csproj", "{5141CDAC-4872-437F-A619-245305C17968}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracciones", "Abstracciones\Abstracciones.csproj", "{D0966AEA-BAFF-423A-BC4F-F7A067040A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5141CDAC-4872-437F-A619-245305C17968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5141CDAC-4872-437F-A619-245305C17968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5141CDAC-4872-437F-A619-245305C17968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0966AEA-BAFF-423A-BC4F-F7A067040A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0966AEA-BAFF-423A-BC4F-F7A067040A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0966AEA-BAFF-423A-BC4F-F7A067040A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0966AEA-BAFF-423A-BC4F-F7A067040A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
