@@ -58,12 +58,29 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\tables" />
+    <Folder Include="dbo\Stored Prodecures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\tables\Entrenadores.sql" />
     <Build Include="dbo\tables\Equipos.sql" />
     <Build Include="dbo\tables\PokemonxEquipos.sql" />
     <Build Include="dbo\tables\Pokemon.sql" />
+    <Build Include="dbo\Stored Prodecures\ActualizarEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\AgregarEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\AgregarEquipo.sql" />
+    <Build Include="dbo\Stored Prodecures\AgregarPokemon.sql" />
+    <Build Include="dbo\Stored Prodecures\AgregarPokemonEquipo.sql" />
+    <Build Include="dbo\Stored Prodecures\CapturarPokemon.sql" />
+    <Build Include="dbo\Stored Prodecures\EliminarEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\GenerarPokemon.sql" />
+    <Build Include="dbo\Stored Prodecures\ListarEquipos.sql" />
+    <Build Include="dbo\Stored Prodecures\ListarPokemonEquipo.sql" />
+    <Build Include="dbo\Stored Prodecures\ObtenerCantidadEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\ObtenerEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\ObtenerPokemon.sql" />
+    <Build Include="dbo\Stored Prodecures\ObtenerTodosEntrenador.sql" />
+    <Build Include="dbo\Stored Prodecures\ReclutarEntrenadores.sql" />
+    <Build Include="dbo\Stored Prodecures\InicializarBD.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Base de datos.refactorlog" />

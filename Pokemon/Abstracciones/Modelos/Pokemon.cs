@@ -8,6 +8,7 @@ namespace Abstracciones.Modelos
 {
     public class Pokemon
     {
+        [Requiered]
         public Guid id { get; set; }
         public int Numero { get; set; }
         public int Nivel { get; set; }
